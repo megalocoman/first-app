@@ -1,3 +1,10 @@
-<input type="text" class="form-control" [(ngModel)]="username" (input)="setIsEmptyString($event)">
-<p>{{username}}</p>
-<button [disabled] = "isEmptyUsername">reset username</button>
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="username"
+  (input)="setIsEmptyString($event)"
+/>
+<p>{{ username }}</p>
+<button [disabled]="isEmptyUsername" (click)="resetUsername()">
+  reset username
+</button>
