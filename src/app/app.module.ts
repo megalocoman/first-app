@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './components/warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './components/success-alert/success-alert.component';
 import { StringinterpolationComponent } from './assigments/stringinterpolation/stringinterpolation.component';
+import { NgDirectivesComponent } from './assigments/ng-directives/ng-directives.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StringinterpolationComponent } from './assigments/stringinterpolation/s
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    StringinterpolationComponent
+    StringinterpolationComponent,
+    NgDirectivesComponent
 
   ],
   imports: [

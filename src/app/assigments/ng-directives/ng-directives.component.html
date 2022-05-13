@@ -1,0 +1,12 @@
+<button class="btn btn-primary" (click)="showParagraph()">Display Details</button>
+<p [hidden]="isHide">nino el felino</p>
+<p *ngFor="let l of list, index as i" >
+  <span [ngClass]="{fifth: i > 4}"
+    [ngStyle]="{backgroundColor: i > 4 ? 'blue': 'white'}"
+    >{{l}}</span>
+
+</p>
+
+
+<!-- [ngClass]="{fifth: count >= 5}"
+  [ngStyle]="{backgroundColor: count >= 5 ? 'white': 'black'}" -->
