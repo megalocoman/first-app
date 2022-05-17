@@ -9,6 +9,10 @@ import { WarningAlertComponent } from './components/warning-alert/warning-alert.
 import { SuccessAlertComponent } from './components/success-alert/success-alert.component';
 import { StringinterpolationComponent } from './assigments/stringinterpolation/stringinterpolation.component';
 import { NgDirectivesComponent } from './assigments/ng-directives/ng-directives.component';
+import { EventBidingComponent } from './assigments/event-biding/event-biding.component';
+import { GameControllerComponent } from './assigments/event-biding/game-controller/game-controller.component';
+import { OddComponent } from './assigments/event-biding/odd/odd.component';
+import { EvenComponent } from './assigments/event-biding/even/even.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { NgDirectivesComponent } from './assigments/ng-directives/ng-directives.
     WarningAlertComponent,
     SuccessAlertComponent,
     StringinterpolationComponent,
-    NgDirectivesComponent
+    NgDirectivesComponent,
+    EventBidingComponent,
+    GameControllerComponent,
+    OddComponent,
+    EvenComponent
 
   ],
   imports: [
